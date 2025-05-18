@@ -8,7 +8,10 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
+<<<<<<< HEAD
         "laravel/sanctum": "^4.0",
+=======
+>>>>>>> ba73afd6beddb1f7e434cc6bb39287006fa50bce
         "laravel/tinker": "^2.10.1"
     },
     "require-dev": {
@@ -51,10 +54,13 @@
         "dev": [
             "Composer\\Config::disableProcessTimeout",
             "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
+<<<<<<< HEAD
         ],
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+=======
+>>>>>>> ba73afd6beddb1f7e434cc6bb39287006fa50bce
         ]
     },
     "extra": {
